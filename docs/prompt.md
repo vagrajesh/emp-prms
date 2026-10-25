@@ -14,14 +14,14 @@ API END POINt: GET /patients/{patient_nbr}
 
 Steps to build your first react app
 
-1) npm create vite@latest fde-patient-react -- --template react-ts
+1) npm create vite@latest fde-performance-react -- --template react-ts
 2) confirm http://localhost:5173 is up and running
-3) build the interfaces : types.ts (on src folder)
-        - encounters
+3) build the interfaces : performance review list.ts (on src folder)
+        - performance reviews
 4) create components folder inside the src
 5) create required components like 
         - Header.tsx
-        - PatientTable.tsx
+        - employees.tsx
         - PatientRow.tsx
 6) Make sure there are no errors, before you proceed
 7) Change the App.tsx completly
